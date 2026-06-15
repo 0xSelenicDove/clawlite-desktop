@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import startVid from "../../assets/startvid.mp4";
-import splashLogo from "../../assets/clawlite_logo_white_text.png";
+import splashLogo from "../../assets/agentify_logo_white_text.png";
 
 
 interface SplashScreenProps {
@@ -40,7 +40,7 @@ function SplashScreen({
         preload="auto"
         style={{ display: "block", objectFit: "cover" }}
       />
-      <img className="splash-logo" src={splashLogo} alt="ClawLite" />
+      <img className="splash-logo" src={splashLogo} alt="Agentify AI" />
       {status && <div className="splash-status">{status}</div>}
     </div>
   );

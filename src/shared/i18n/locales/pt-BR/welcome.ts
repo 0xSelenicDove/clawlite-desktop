@@ -1,5 +1,5 @@
 export default {
-  title: "Bem-vindo ao ClawLite",
+  title: "Bem-vindo ao Agentify AI",
   subtitle:
     "Seu assistente de IA que se aprimora sozinho e roda localmente na sua máquina. Privado, poderoso e sempre aprendendo.",
   installIssueTitle: "Problema na Instalação",
@@ -11,8 +11,8 @@ export default {
   installSizeHint: "Isso instalará os componentes necessários (~2 GB)",
   copyInstallCommand: "Copiar comando de instalação",
   dividerOr: "ou",
-  connectRemote: "Conectar ao ClawLite Remoto",
-  connectRemoteTitle: "Conectar ao ClawLite Remoto",
+  connectRemote: "Conectar ao Agentify AI Remoto",
+  connectRemoteTitle: "Conectar ao Agentify AI Remoto",
   connectRemoteSubtitle:
     "Insira a URL de um servidor da API do Hermes em execução.",
   remoteServerUrl: "URL do Servidor",

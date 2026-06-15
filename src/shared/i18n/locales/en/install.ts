@@ -3,7 +3,7 @@ export default {
   startingInstall: "Starting installation",
   installationComplete: "Installation Complete",
   installationFailed: "Installation Failed",
-  installingHermes: "Installing ClawLite Agent",
+  installingHermes: "Installing Agentify AI Agent",
   installationFailedHint:
     "Installation failed. Please try again or install via terminal.",
   retryInstallation: "Retry Installation",
@@ -13,7 +13,7 @@ export default {
   waitingToStart: "Waiting to start...",
   continueToSetup: "Continue to Setup",
   confirmTitle: "Before installing",
-  confirmLocationLabel: "ClawLite will be installed at:",
+  confirmLocationLabel: "Agentify AI will be installed at:",
   confirmFresh:
     "No existing installation was found here — a fresh copy will be set up.",
   confirmUpdate:
@@ -22,12 +22,12 @@ export default {
     "A folder exists here but isn't a valid Hermes installation — installing will delete and replace it.",
   confirmNotInherited:
     "If you installed Hermes somewhere else, or via the command line, it won't be carried over.",
-  confirmInstallBtn: "Install ClawLite",
+  confirmInstallBtn: "Install Agentify AI",
   useExistingBtn: "Use an existing installation",
   useExistingHint:
     "Select the folder that holds your existing Hermes installation (the one containing the hermes-agent folder).",
-  useExistingInvalid: "No usable ClawLite installation was found in that folder.",
+  useExistingInvalid: "No usable Agentify AI installation was found in that folder.",
   useExistingDone:
     "Existing installation set — quit and reopen Hermes to apply it.",
-  useExistingQuitBtn: "Quit ClawLite",
+  useExistingQuitBtn: "Quit Agentify AI",
 } as const;

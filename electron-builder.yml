@@ -1,5 +1,5 @@
-appId: com.nousresearch.clawlite
-productName: ClawLite
+appId: com.nousresearch.agentifyai
+productName: Agentify AI
 directories:
   buildResources: build
 files:
@@ -13,7 +13,7 @@ asarUnpack:
   - resources/**
   - node_modules/better-sqlite3/build/Release/*.node
 win:
-  executableName: clawlite
+  executableName: agentify-ai
   target:
     - nsis
     - portable
@@ -52,8 +52,8 @@ linux:
   category: Utility
   synopsis: Self-improving AI assistant desktop app
   description: >-
-    ClawLite is a native desktop app for installing, configuring, and chatting
-    with ClawLite Agent — a self-improving AI assistant with tool use, multi-platform
+    Agentify AI is a native desktop app for installing, configuring, and chatting
+    with Agentify AI Agent — a self-improving AI assistant with tool use, multi-platform
     messaging, and a closed learning loop.
 appImage:
   artifactName: ${name}-${version}.${ext}
@@ -70,4 +70,4 @@ npmRebuild: false
 publish:
   provider: github
   owner: 0xSelenicDove
-  repo: clawlite-desktop
+  repo: agentify-ai-desktop

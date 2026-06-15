@@ -13,7 +13,7 @@ export default {
   reasoningEffort: {
     title: "רמת חשיבה",
     auto: "אוטומטי",
-    autoDescription: "תנו ל-ClawLite ולמודל להחליט.",
+    autoDescription: "תנו ל-Agentify AI ולמודל להחליט.",
     hint: "אוטומטי הוא הבטוח ביותר. מודלים שאינם תומכים ברמת חשיבה עשויים להתעלם מרמות ידניות או לדחות אותן.",
     saveError: "לא ניתן היה לשמור את רמת החשיבה. הבחירה שוחזרה.",
     minimal: "מינימלי",
@@ -117,7 +117,7 @@ export default {
     model: "הצגה או החלפה של המודל הנוכחי",
     memory: "הצגת זיכרון הסוכן",
     persona: "הצגת הפרסונה הנוכחית",
-    version: "הצגת גרסת ClawLite",
+    version: "הצגת גרסת Agentify AI",
   },
   queued: "{{count}} הודעות בתור - יישלחו בסיום עבודת הסוכן",
   worktree: {

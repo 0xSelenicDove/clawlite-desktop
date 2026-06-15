@@ -1,5 +1,5 @@
 export default {
-  title: "Selamat datang di ClawLite",
+  title: "Selamat datang di Agentify AI",
   subtitle:
     "Asisten AI yang terus berkembang dan berjalan lokal di mesin Anda. Privat, kuat, dan selalu belajar.",
   installIssueTitle: "Masalah Instalasi",
@@ -11,9 +11,9 @@ export default {
   installSizeHint: "Ini akan menginstal komponen yang diperlukan (~2 GB)",
   copyInstallCommand: "Salin perintah instalasi",
   dividerOr: "atau",
-  connectRemote: "Hubungkan ke ClawLite Remote",
-  connectRemoteTitle: "Hubungkan ke ClawLite Remote",
-  connectRemoteSubtitle: "Masukkan URL server ClawLite API yang sedang berjalan.",
+  connectRemote: "Hubungkan ke Agentify AI Remote",
+  connectRemoteTitle: "Hubungkan ke Agentify AI Remote",
+  connectRemoteSubtitle: "Masukkan URL server Agentify AI API yang sedang berjalan.",
   remoteServerUrl: "URL Server",
   remoteApiKey: "API Key (opsional)",
   remoteApiKeyPlaceholder: "Bearer token (API_SERVER_KEY)",

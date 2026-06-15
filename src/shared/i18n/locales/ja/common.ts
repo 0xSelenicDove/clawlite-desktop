@@ -1,5 +1,5 @@
 export default {
-  appName: "ClawLite",
+  appName: "Agentify AI",
   continue: "続ける",
   cancel: "キャンセル",
   retry: "再試行",

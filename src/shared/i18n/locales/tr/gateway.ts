@@ -14,8 +14,8 @@ export default {
   startExited:
     "Geçit başlatıldı, ancak hazır hale gelmeden önce tekrar durdu.",
   checkLog: "Geçit günlüğünü kontrol edin:",
-  gatewayHint: "ClawLite'i Telegram, Discord, Slack ve diğer platformlara bağlar",
-  subtitle: "ClawLite Ajanının bağlanabileceği mesajlaşma platformlarını yönetin.",
+  gatewayHint: "Agentify AI'i Telegram, Discord, Slack ve diğer platformlara bağlar",
+  subtitle: "Agentify AI Ajanının bağlanabileceği mesajlaşma platformlarını yönetin.",
   refreshTooltip: "Platform durumunu yenile",
   refresh: "Yenile",
   configHint: "Platformları buradan yapılandırın. Değişiklikleri kaydetmek, adaptörlerin en son kimlik bilgilerini alması için gerektiğinde geçidi yeniden başlatır.",

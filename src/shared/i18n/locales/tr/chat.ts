@@ -101,7 +101,7 @@ export default {
     model: "Mevcut modeli göster veya değiştir",
     memory: "Ajan belleğini göster",
     persona: "Mevcut persona'yı göster",
-    version: "ClawLite sürümünü göster",
+    version: "Agentify AI sürümünü göster",
   },
   queued: "{{count}} mesaj sırada — ajan işini bitirince gönderilecek",
   queuedCancel: "Sıradan kaldır",

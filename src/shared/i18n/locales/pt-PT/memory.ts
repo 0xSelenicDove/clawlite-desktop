@@ -1,6 +1,6 @@
 export default {
   title: "Memória",
-  subtitle: "O que o ClawLite se lembra sobre si e o seu ambiente entre sessões.",
+  subtitle: "O que o Agentify AI se lembra sobre si e o seu ambiente entre sessões.",
   sessions: "Sessões",
   messages: "Mensagens",
   memories: "Memórias",

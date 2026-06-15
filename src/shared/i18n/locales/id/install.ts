@@ -3,7 +3,7 @@ export default {
   startingInstall: "Memulai instalasi",
   installationComplete: "Instalasi Selesai",
   installationFailed: "Instalasi Gagal",
-  installingHermes: "Menginstal ClawLite Agent",
+  installingHermes: "Menginstal Agentify AI Agent",
   installationFailedHint:
     "Instalasi gagal. Coba lagi atau instal melalui terminal.",
   retryInstallation: "Ulangi Instalasi",
@@ -13,7 +13,7 @@ export default {
   waitingToStart: "Menunggu untuk mulai...",
   continueToSetup: "Lanjut ke Setup",
   confirmTitle: "Sebelum memasang",
-  confirmLocationLabel: "ClawLite akan dipasang di:",
+  confirmLocationLabel: "Agentify AI akan dipasang di:",
   confirmFresh:
     "Tidak ada pemasangan yang ditemukan di sini — salinan baru akan disiapkan.",
   confirmUpdate:
@@ -22,7 +22,7 @@ export default {
     "Ada folder di sini tetapi bukan pemasangan Hermes yang valid — memasang akan menghapus dan menggantinya.",
   confirmNotInherited:
     "Jika Anda memasang Hermes di tempat lain, atau melalui baris perintah, itu tidak akan dibawa serta.",
-  confirmInstallBtn: "Pasang ClawLite",
+  confirmInstallBtn: "Pasang Agentify AI",
   useExistingBtn: "Gunakan pemasangan yang sudah ada",
   useExistingHint:
     "Pilih folder yang berisi pemasangan Hermes Anda yang sudah ada (folder yang memuat folder hermes-agent).",
@@ -30,5 +30,5 @@ export default {
     "Tidak ada pemasangan Hermes yang dapat digunakan di folder itu.",
   useExistingDone:
     "Pemasangan yang ada telah diatur — tutup dan buka kembali Hermes untuk menerapkannya.",
-  useExistingQuitBtn: "Keluar dari ClawLite",
+  useExistingQuitBtn: "Keluar dari Agentify AI",
 } as const;

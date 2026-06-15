@@ -1,14 +1,14 @@
 export default {
   title: "Configuración",
   sections: {
-    hermesAgent: "ClawLite Agent",
+    hermesAgent: "Agentify AI Agent",
     appearance: "Apariencia",
     privacy: "Privacidad",
     credentialPool: "Grupo de credenciales",
   },
   analytics: {
     label: "Enviar analíticas de uso anónimas",
-    hint: "Ayuda a mejorar ClawLite enviando datos de uso anónimos y agregados a la instancia PostHog del proyecto (alojada en la UE). Puedes desactivarlo en cualquier momento.",
+    hint: "Ayuda a mejorar Agentify AI enviando datos de uso anónimos y agregados a la instancia PostHog del proyecto (alojada en la UE). Puedes desactivarlo en cualquier momento.",
     disclosure: {
       uuid: "Un identificador aleatorio por instalación almacenado únicamente en este dispositivo (sin nombre, correo electrónico ni datos de cuenta).",
       platform:
@@ -39,7 +39,7 @@ export default {
   },
   notDetected: "No detectado",
   updatedSuccessfully: "¡Actualizado correctamente!",
-  updateSuccess: "ClawLite se actualizó correctamente.",
+  updateSuccess: "Agentify AI se actualizó correctamente.",
   updateFailed: "La actualización falló.",
   version: "v{{version}}",
   proxyPlaceholder: "p. ej. socks5://127.0.0.1:1080 o http://proxy:8080",
@@ -96,7 +96,7 @@ export default {
     "Se encontró OpenClaw en <code>{{path}}</code>. Puedes migrar tu configuración, API keys, sesiones y habilidades a Hermes.",
   migrationDismiss: "No volver a mostrar",
   migrating: "Migrando...",
-  migrateToHermes: "Migrar a ClawLite",
+  migrateToHermes: "Migrar a Agentify AI",
   skip: "Omitir",
   appearanceHint: "Elige la apariencia de interfaz que prefieras",
   apiKeyPlaceholder: "API key",
@@ -104,7 +104,7 @@ export default {
   connectionSection: "Conexión",
   modeLocal: "Local",
   modeRemote: "Remoto",
-  modeLocalHint: "Usando ClawLite instalado en este dispositivo",
+  modeLocalHint: "Usando Agentify AI instalado en este dispositivo",
   modeRemoteHint:
     "Conectarse a un servidor de API de Hermes en tu red o en la nube",
   remoteUrl: "URL remota",

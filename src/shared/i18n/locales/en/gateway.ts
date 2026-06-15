@@ -16,7 +16,7 @@ export default {
   checkLog: "Check the gateway log:",
   gatewayHint:
     "Connects Hermes to Telegram, Discord, Slack, and other platforms",
-  subtitle: "Manage the messaging platforms ClawLite Agent can connect to.",
+  subtitle: "Manage the messaging platforms Agentify AI Agent can connect to.",
   refreshTooltip: "Refresh platform status",
   refresh: "Refresh",
   configHint:

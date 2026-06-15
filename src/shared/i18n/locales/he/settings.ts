@@ -1,7 +1,7 @@
 export default {
   title: "הגדרות",
   sections: {
-    hermesAgent: "ClawLite Agent",
+    hermesAgent: "Agentify AI Agent",
     appearance: "מראה",
     privacy: "פרטיות",
     credentialPool: "מאגר אישורים",
@@ -35,7 +35,7 @@ export default {
   },
   analytics: {
     label: "שליחת נתוני שימוש אנונימיים",
-    hint: "עוזר לשפר את ClawLite Desktop באמצעות שליחת נתוני שימוש אנונימיים ומצרפיים למופע ה-PostHog של הפרויקט. ניתן לכבות זאת בכל עת.",
+    hint: "עוזר לשפר את Agentify AI Desktop באמצעות שליחת נתוני שימוש אנונימיים ומצרפיים למופע ה-PostHog של הפרויקט. ניתן לכבות זאת בכל עת.",
     disclosure: {
       uuid: "מזהה אקראי לכל התקנה, השמור רק במכשיר זה (ללא שם, אימייל או פרטי חשבון).",
       platform: "מערכת ההפעלה שלכם, גרסת Electron וגרסת Node.js.",
@@ -49,7 +49,7 @@ export default {
   },
   notDetected: "לא זוהה",
   updatedSuccessfully: "עודכן בהצלחה!",
-  updateSuccess: "‏ClawLite עודכן בהצלחה.",
+  updateSuccess: "‏Agentify AI עודכן בהצלחה.",
   updateFailed: "העדכון נכשל.",
   version: "v{{version}}",
   proxyPlaceholder: "לדוגמה: socks5://127.0.0.1:1080 או http://proxy:8080",
@@ -103,7 +103,7 @@ export default {
     "נמצא OpenClaw בנתיב <code>{{path}}</code>. תוכלו להעביר ל-Hermes את ההגדרות, מפתחות ה-API, הסשנים והמיומנויות שלכם.",
   migrationDismiss: "אל תציג שוב",
   migrating: "מעביר...",
-  migrateToHermes: "העברה ל-ClawLite",
+  migrateToHermes: "העברה ל-Agentify AI",
   skip: "דלג",
   appearanceHint: "בחרו את מראה הממשק המועדף עליכם",
   apiKeyPlaceholder: "מפתח API",
@@ -111,8 +111,8 @@ export default {
   connectionSection: "חיבור",
   modeLocal: "מקומי",
   modeRemote: "מרוחק",
-  modeLocalHint: "שימוש ב-ClawLite המותקן על מכשיר זה",
-  modeRemoteHint: "התחברו לשרת ClawLite API ברשת שלכם או בענן",
+  modeLocalHint: "שימוש ב-Agentify AI המותקן על מכשיר זה",
+  modeRemoteHint: "התחברו לשרת Agentify AI API ברשת שלכם או בענן",
   remoteUrl: "כתובת מרוחקת",
   remoteUrlHint:
     "כתובת שרת Hermes API ‏(חייבת לחשוף את /health ואת /v1/chat/completions)",
@@ -145,15 +145,15 @@ export default {
   generating: "יוצר…",
   remoteEnvTitle: "הגדרת ‏API_SERVER_KEY‏ בשרת המרוחק",
   remoteEnvSshDesc:
-    "מצב SSH: הוסיפו ‏API_SERVER_KEY=<your-key>‏ אל ‏~/.clawlite/profiles/<profile>/.env‏ במארח המרוחק, ואז הפעילו שם מחדש את השער.",
+    "מצב SSH: הוסיפו ‏API_SERVER_KEY=<your-key>‏ אל ‏~/.agentify-ai/profiles/<profile>/.env‏ במארח המרוחק, ואז הפעילו שם מחדש את השער.",
   remoteEnvDesc:
-    "מצב מרוחק: הוסיפו ‏API_SERVER_KEY=<your-key>‏ אל קובץ ה-.env בשרת ה-ClawLite המרוחק שלכם, ואז הפעילו מחדש את השער.",
+    "מצב מרוחק: הוסיפו ‏API_SERVER_KEY=<your-key>‏ אל קובץ ה-.env בשרת ה-Agentify AI המרוחק שלכם, ואז הפעילו מחדש את השער.",
   sshHost: "מארח SSH",
   sshPort: "פורט SSH",
   sshUsername: "שם משתמש",
   sshKeyPath: "נתיב למפתח הפרטי",
   sshKeyPathOptional: "(אופציונלי, ברירת המחדל ~/.ssh/id_rsa)",
-  sshRemotePort: "פורט ClawLite מרוחק",
+  sshRemotePort: "פורט Agentify AI מרוחק",
   sshRemotePortDefault: "(ברירת מחדל 8642)",
   sshHint:
     "ודאו שאתם יכולים להריץ ssh {{cmd}} ללא בקשת סיסמה. החיבור הראשון נותן אמון במפתח המארח ושומר אותו ב-~/.ssh/known_hosts; חיבור SSH ייכשל אם המפתח ישתנה מאוחר יותר.",
@@ -169,7 +169,7 @@ export default {
   sshUsernamePlaceholder: "hermes",
   sshErrorRequired: "נדרשים מארח ושם משתמש.",
   sshErrorConnection:
-    "לא ניתן היה להתחבר דרך SSH או להגיע ל-Hermes במרוחק. ודאו:\n• מפתח ה-SSH נכון (או שברירת המחדל ~/.ssh/id_rsa עובדת)\n• שער ה-ClawLite פועל במרוחק\n• הפורט המרוחק נכון (ברירת מחדל 8642)",
+    "לא ניתן היה להתחבר דרך SSH או להגיע ל-Hermes במרוחק. ודאו:\n• מפתח ה-SSH נכון (או שברירת המחדל ~/.ssh/id_rsa עובדת)\n• שער ה-Agentify AI פועל במרוחק\n• הפורט המרוחק נכון (ברירת מחדל 8642)",
   sshErrorFailed: "בדיקת חיבור ה-SSH נכשלה: {{msg}}",
   sshErrorFailedSimple: "בדיקת חיבור ה-SSH נכשלה.",
   remoteErrorUrl: "אנא הזינו כתובת URL.",

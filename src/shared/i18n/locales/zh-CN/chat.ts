@@ -75,7 +75,7 @@ export default {
     model: "查看或切换当前模型",
     memory: "查看代理记忆",
     persona: "查看当前人格",
-    version: "查看 ClawLite 版本",
+    version: "查看 Agentify AI 版本",
   },
   queuedCancel: "从队列中移除",
   worktree: {

@@ -3,7 +3,7 @@ export default {
   startingInstall: "Kurulum başlatılıyor",
   installationComplete: "Kurulum Tamamlandı",
   installationFailed: "Kurulum Başarısız",
-  installingHermes: "ClawLite Agent Kuruluyor",
+  installingHermes: "Agentify AI Agent Kuruluyor",
   installationFailedHint:
     "Kurulum başarısız oldu. Lütfen tekrar deneyin veya terminal üzerinden kurun.",
   retryInstallation: "Kurulumu Tekrar Dene",
@@ -13,7 +13,7 @@ export default {
   waitingToStart: "Başlamayı bekliyor...",
   continueToSetup: "Kuruluma Devam Et",
   confirmTitle: "Kurmadan Önce",
-  confirmLocationLabel: "ClawLite şuraya kurulacak:",
+  confirmLocationLabel: "Agentify AI şuraya kurulacak:",
   confirmFresh:
     "Burada mevcut bir kurulum bulunamadı — yeni bir kopya oluşturulacak.",
   confirmUpdate:
@@ -22,7 +22,7 @@ export default {
     "Burada bir klasör var ancak geçerli bir Hermes kurulumu değil — kurulum bu klasörü silip yenisiyle değiştirecektir.",
   confirmNotInherited:
     "Hermes'i başka bir yere veya komut satırından kurduysanız, buraya taşınmayacaktır.",
-  confirmInstallBtn: "ClawLite'i Kur",
+  confirmInstallBtn: "Agentify AI'i Kur",
   useExistingBtn: "Mevcut bir kurulumu kullan",
   useExistingHint:
     "Mevcut Hermes kurulumunuzu içeren klasörü seçin (hermes-agent klasörünü içeren).",
@@ -30,5 +30,5 @@ export default {
     "Bu klasörde kullanılabilir bir Hermes kurulumu bulunamadı.",
   useExistingDone:
     "Mevcut kurulum ayarlandı — uygulamak için Hermes'i kapatıp yeniden açın.",
-  useExistingQuitBtn: "ClawLite'ten Çık",
+  useExistingQuitBtn: "Agentify AI'ten Çık",
 } as const;

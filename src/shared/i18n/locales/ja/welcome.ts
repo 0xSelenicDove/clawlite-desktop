@@ -1,5 +1,5 @@
 export default {
-  title: "ClawLite へようこそ",
+  title: "Agentify AI へようこそ",
   subtitle:
     "あなたのマシンでローカル実行する自己進化型 AI アシスタント。プライベートで、強力で、常に学習します。",
   installIssueTitle: "インストールの問題",
@@ -10,8 +10,8 @@ export default {
   installSizeHint: "必要なコンポーネント（約 2 GB）をインストールします",
   copyInstallCommand: "インストールコマンドをコピー",
   dividerOr: "または",
-  connectRemote: "リモート ClawLite に接続",
-  connectRemoteTitle: "リモート ClawLite に接続",
+  connectRemote: "リモート Agentify AI に接続",
+  connectRemoteTitle: "リモート Agentify AI に接続",
   connectRemoteSubtitle:
     "稼働中の Hermes API サーバの URL を入力してください。",
   remoteServerUrl: "サーバ URL",

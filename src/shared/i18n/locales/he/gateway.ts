@@ -16,7 +16,7 @@ export default {
   checkLog: "בדקו את יומן השער:",
   gatewayHint:
     "מחבר את Hermes ל-Telegram, ל-Discord, ל-Slack ולפלטפורמות נוספות",
-  subtitle: "ניהול פלטפורמות המסרים שאליהן ClawLite Agent יכול להתחבר.",
+  subtitle: "ניהול פלטפורמות המסרים שאליהן Agentify AI Agent יכול להתחבר.",
   refreshTooltip: "רענון מצב הפלטפורמות",
   refresh: "רענון",
   configHint:

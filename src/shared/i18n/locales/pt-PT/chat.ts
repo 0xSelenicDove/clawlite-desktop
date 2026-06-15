@@ -89,7 +89,7 @@ export default {
     model: "Mostrar ou trocar o modelo atual",
     memory: "Mostrar a memória do agente",
     persona: "Mostrar a persona atual",
-    version: "Mostrar a versão do ClawLite",
+    version: "Mostrar a versão do Agentify AI",
   },
   queued:
     "{{count}} mensagem(ns) em fila — serão enviadas quando o agente terminar",

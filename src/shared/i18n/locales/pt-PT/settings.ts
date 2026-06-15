@@ -1,14 +1,14 @@
 export default {
   title: "Definições",
   sections: {
-    hermesAgent: "Agente ClawLite",
+    hermesAgent: "Agente Agentify AI",
     appearance: "Aparência",
     privacy: "Privacidade",
     credentialPool: "Pool de Credenciais",
   },
   analytics: {
     label: "Enviar análises de utilização anónimas",
-    hint: "Ajuda a melhorar o ClawLite ao enviar dados de utilização anónimos e agregados para a instância PostHog do projecto (alojada na UE). Pode desactivar a qualquer momento.",
+    hint: "Ajuda a melhorar o Agentify AI ao enviar dados de utilização anónimos e agregados para a instância PostHog do projecto (alojada na UE). Pode desactivar a qualquer momento.",
     disclosure: {
       uuid: "Um identificador aleatório por instalação guardado apenas neste dispositivo (sem nome, e-mail ou dados de conta).",
       platform:
@@ -39,7 +39,7 @@ export default {
   },
   notDetected: "Não detectado",
   updatedSuccessfully: "Actualizado com sucesso!",
-  updateSuccess: "ClawLite actualizado com sucesso.",
+  updateSuccess: "Agentify AI actualizado com sucesso.",
   updateFailed: "Falha na actualização.",
   version: "v{{version}}",
   proxyPlaceholder: "ex: socks5://127.0.0.1:1080 ou http://proxy:8080",
@@ -88,7 +88,7 @@ export default {
     "Encontrámos o OpenClaw em <code>{{path}}</code>. Pode migrar a sua configuração, chaves de API, sessões e competências para o Hermes.",
   migrationDismiss: "Não mostrar novamente",
   migrating: "A migrar...",
-  migrateToHermes: "Migrar para o ClawLite",
+  migrateToHermes: "Migrar para o Agentify AI",
   skip: "Ignorar",
   appearanceHint: "Escolha a aparência preferida da interface",
   apiKeyPlaceholder: "Chave da API",
@@ -96,8 +96,8 @@ export default {
   connectionSection: "Ligação",
   modeLocal: "Local",
   modeRemote: "Remoto",
-  modeLocalHint: "A usar o ClawLite instalado neste dispositivo",
-  modeRemoteHint: "Ligar a um servidor da API do ClawLite na sua rede ou nuvem",
+  modeLocalHint: "A usar o Agentify AI instalado neste dispositivo",
+  modeRemoteHint: "Ligar a um servidor da API do Agentify AI na sua rede ou nuvem",
   remoteUrl: "URL Remoto",
   remoteUrlHint:
     "O URL do servidor da API do Hermes (deve expor /health e /v1/chat/completions)",

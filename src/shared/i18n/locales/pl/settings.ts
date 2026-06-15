@@ -1,7 +1,7 @@
 export default {
   title: "Ustawienia",
   sections: {
-    hermesAgent: "ClawLite Agent",
+    hermesAgent: "Agentify AI Agent",
     appearance: "Wygląd",
     privacy: "Prywatność",
     credentialPool: "Pula poświadczeń",
@@ -24,7 +24,7 @@ export default {
   },
   analytics: {
     label: "Wysyłaj anonimową analitykę użycia",
-    hint: "Pomaga ulepszać ClawLite przez wysyłanie anonimowych, zagregowanych danych użycia do instancji PostHog projektu. Możesz to wyłączyć w dowolnym momencie.",
+    hint: "Pomaga ulepszać Agentify AI przez wysyłanie anonimowych, zagregowanych danych użycia do instancji PostHog projektu. Możesz to wyłączyć w dowolnym momencie.",
     disclosure: {
       uuid: "Losowy identyfikator instalacji przechowywany tylko na tym urządzeniu (bez imienia, e-maila ani danych konta).",
       platform: "Twój system operacyjny, wersja Electron i wersja Node.js.",
@@ -38,7 +38,7 @@ export default {
   },
   notDetected: "Nie wykryto",
   updatedSuccessfully: "Zaktualizowano pomyślnie!",
-  updateSuccess: "ClawLite został pomyślnie zaktualizowany.",
+  updateSuccess: "Agentify AI został pomyślnie zaktualizowany.",
   updateFailed: "Aktualizacja nie powiodła się.",
   version: "v{{version}}",
   proxyPlaceholder: "np. socks5://127.0.0.1:1080 lub http://proxy:8080",
@@ -95,7 +95,7 @@ export default {
     "Znaleziono OpenClaw w <code>{{path}}</code>. Możesz przenieść konfigurację, klucze API, sesje i umiejętności do Hermes.",
   migrationDismiss: "Nie pokazuj ponownie",
   migrating: "Migrowanie...",
-  migrateToHermes: "Migruj do ClawLite",
+  migrateToHermes: "Migruj do Agentify AI",
   skip: "Pomiń",
   appearanceHint: "Wybierz preferowany wygląd interfejsu",
   apiKeyPlaceholder: "Klucz API",
@@ -103,8 +103,8 @@ export default {
   connectionSection: "Połączenie",
   modeLocal: "Lokalny",
   modeRemote: "Zdalny",
-  modeLocalHint: "Używasz ClawLite zainstalowanego na tym urządzeniu",
-  modeRemoteHint: "Połącz z serwerem API ClawLite w sieci lub chmurze",
+  modeLocalHint: "Używasz Agentify AI zainstalowanego na tym urządzeniu",
+  modeRemoteHint: "Połącz z serwerem API Agentify AI w sieci lub chmurze",
   remoteUrl: "Zdalny URL",
   remoteUrlHint:
     "URL serwera API Hermes (musi wystawiać /health i /v1/chat/completions)",

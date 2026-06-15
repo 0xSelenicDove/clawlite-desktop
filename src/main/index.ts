@@ -2769,7 +2769,7 @@ if (process.env.ENABLE_CDP === "1") {
 
 app.whenReady().then(() => {
   app.setName(APP_NAME);
-  electronApp.setAppUserModelId("com.nousresearch.clawlite");
+  electronApp.setAppUserModelId("com.nousresearch.agentifyai");
   if (process.platform === "darwin" && app.dock) {
     try {
       const image = nativeImage.createFromPath(icon);

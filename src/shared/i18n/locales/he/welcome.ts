@@ -1,5 +1,5 @@
 export default {
-  title: "ברוכים הבאים ל-ClawLite",
+  title: "ברוכים הבאים ל-Agentify AI",
   subtitle:
     "עוזר ה-AI שמשתפר בעצמו ורץ מקומית על המכשיר שלכם. פרטי, עוצמתי, ולומד כל הזמן.",
   installIssueTitle: "בעיה בהתקנה",
@@ -11,9 +11,9 @@ export default {
   installSizeHint: "פעולה זו תתקין את הרכיבים הנדרשים (כ-2 ג'יגה-בייט)",
   copyInstallCommand: "העתק פקודת התקנה",
   dividerOr: "או",
-  connectRemote: "התחברות ל-ClawLite מרוחק",
-  connectRemoteTitle: "התחברות ל-ClawLite מרוחק",
-  connectRemoteSubtitle: "הזינו את הכתובת של שרת ClawLite API פעיל.",
+  connectRemote: "התחברות ל-Agentify AI מרוחק",
+  connectRemoteTitle: "התחברות ל-Agentify AI מרוחק",
+  connectRemoteSubtitle: "הזינו את הכתובת של שרת Agentify AI API פעיל.",
   remoteServerUrl: "כתובת השרת",
   remoteApiKey: "מפתח API (אופציונלי)",
   remoteApiKeyPlaceholder: "אסימון Bearer ‏(API_SERVER_KEY)",
