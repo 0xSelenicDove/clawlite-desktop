@@ -1,6 +1,6 @@
 export default {
   title: "Memoria",
-  subtitle: "Lo que Hermes recuerda sobre ti y tu entorno entre sesiones.",
+  subtitle: "Lo que ClawLite recuerda sobre ti y tu entorno entre sesiones.",
   sessions: "Sesiones",
   messages: "Mensajes",
   memories: "Recuerdos",

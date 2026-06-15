@@ -3,7 +3,7 @@ import { t, getLocaleDirection } from "./index";
 
 describe("shared i18n", () => {
   it("returns English text by default", () => {
-    expect(t("welcome.title")).toBe("Welcome to Hermes");
+    expect(t("welcome.title")).toBe("Welcome to ClawLite");
   });
 
   it("falls back to the key when an English key is missing", () => {
@@ -11,27 +11,27 @@ describe("shared i18n", () => {
   });
 
   it("returns zh-CN text when available", () => {
-    expect(t("welcome.title", "zh-CN")).toBe("欢迎使用 Hermes");
+    expect(t("welcome.title", "zh-CN")).toBe("欢迎使用 ClawLite");
   });
 
   it("returns zh-TW text when available", () => {
-    expect(t("welcome.title", "zh-TW")).toBe("歡迎使用 Hermes");
+    expect(t("welcome.title", "zh-TW")).toBe("歡迎使用 ClawLite");
   });
 
   it("returns es text when available", () => {
-    expect(t("welcome.title", "es")).toBe("Bienvenido a Hermes");
+    expect(t("welcome.title", "es")).toBe("Bienvenido a ClawLite");
   });
 
   it("returns id text when available", () => {
-    expect(t("welcome.title", "id")).toBe("Selamat datang di Hermes");
+    expect(t("welcome.title", "id")).toBe("Selamat datang di ClawLite");
   });
 
   it("returns pl text when available", () => {
-    expect(t("welcome.title", "pl")).toBe("Witamy w Hermes");
+    expect(t("welcome.title", "pl")).toBe("Witamy w ClawLite");
   });
 
   it("returns he text when available", () => {
-    expect(t("welcome.title", "he")).toBe("ברוכים הבאים ל-Hermes");
+    expect(t("welcome.title", "he")).toBe("ברוכים הבאים ל-ClawLite");
   });
 
   it("reports he as a right-to-left locale", () => {

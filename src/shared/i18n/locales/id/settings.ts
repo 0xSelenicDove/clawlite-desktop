@@ -1,14 +1,14 @@
 export default {
   title: "Pengaturan",
   sections: {
-    hermesAgent: "Hermes Agent",
+    hermesAgent: "ClawLite Agent",
     appearance: "Tampilan",
     privacy: "Privasi",
     credentialPool: "Kumpulan Kredensial",
   },
   analytics: {
     label: "Kirim analitik penggunaan anonim",
-    hint: "Membantu meningkatkan Hermes dengan mengirim data penggunaan anonim dan teragregasi ke instans PostHog proyek (di-host di UE). Anda dapat menonaktifkannya kapan saja.",
+    hint: "Membantu meningkatkan ClawLite dengan mengirim data penggunaan anonim dan teragregasi ke instans PostHog proyek (di-host di UE). Anda dapat menonaktifkannya kapan saja.",
     disclosure: {
       uuid: "Pengenal acak per-instalasi yang disimpan hanya di perangkat ini (tanpa nama, email, atau info akun).",
       platform: "Sistem operasi, versi Electron, dan versi Node.js Anda.",
@@ -38,7 +38,7 @@ export default {
   },
   notDetected: "Tidak terdeteksi",
   updatedSuccessfully: "Berhasil diperbarui!",
-  updateSuccess: "Hermes berhasil diperbarui.",
+  updateSuccess: "ClawLite berhasil diperbarui.",
   updateFailed: "Pembaruan gagal.",
   version: "v{{version}}",
   proxyPlaceholder: "mis. socks5://127.0.0.1:1080 atau http://proxy:8080",
@@ -93,7 +93,7 @@ export default {
     "OpenClaw ditemukan di <code>{{path}}</code>. Anda dapat memigrasikan konfigurasi, API key, sesi, dan skill ke Hermes.",
   migrationDismiss: "Jangan tampilkan lagi",
   migrating: "Memigrasikan...",
-  migrateToHermes: "Migrasi ke Hermes",
+  migrateToHermes: "Migrasi ke ClawLite",
   skip: "Lewati",
   appearanceHint: "Pilih tampilan antarmuka yang Anda sukai",
   apiKeyPlaceholder: "API Key",
@@ -101,8 +101,8 @@ export default {
   connectionSection: "Koneksi",
   modeLocal: "Lokal",
   modeRemote: "Remote",
-  modeLocalHint: "Menggunakan Hermes yang terinstal di perangkat ini",
-  modeRemoteHint: "Hubungkan ke server Hermes API di jaringan atau cloud Anda",
+  modeLocalHint: "Menggunakan ClawLite yang terinstal di perangkat ini",
+  modeRemoteHint: "Hubungkan ke server ClawLite API di jaringan atau cloud Anda",
   remoteUrl: "URL Remote",
   remoteUrlHint:
     "URL server Hermes API (harus mengekspos /health dan /v1/chat/completions)",

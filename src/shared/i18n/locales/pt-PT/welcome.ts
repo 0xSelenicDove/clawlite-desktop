@@ -1,5 +1,5 @@
 export default {
-  title: "Bem-vindo ao Hermes",
+  title: "Bem-vindo ao ClawLite",
   subtitle:
     "O seu agente de IA que se auto-aperfeiçoa, executado localmente na sua máquina. Privado, poderoso e sempre a aprender.",
   installIssueTitle: "Problema na Instalação",
@@ -11,8 +11,8 @@ export default {
   installSizeHint: "Isto irá instalar os componentes necessários (~2 GB)",
   copyInstallCommand: "Copiar comando de instalação",
   dividerOr: "ou",
-  connectRemote: "Ligar a Hermes Remoto",
-  connectRemoteTitle: "Ligar a Hermes Remoto",
+  connectRemote: "Ligar a ClawLite Remoto",
+  connectRemoteTitle: "Ligar a ClawLite Remoto",
   connectRemoteSubtitle:
     "Introduza o URL de um servidor da API do Hermes em execução.",
   remoteServerUrl: "URL do Servidor",

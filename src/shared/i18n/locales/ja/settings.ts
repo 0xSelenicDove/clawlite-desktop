@@ -1,14 +1,14 @@
 export default {
   title: "設定",
   sections: {
-    hermesAgent: "Hermes Agent",
+    hermesAgent: "ClawLite Agent",
     appearance: "外観",
     privacy: "プライバシー",
     credentialPool: "認証情報プール",
   },
   analytics: {
     label: "匿名の利用状況分析を送信する",
-    hint: "プロジェクトの PostHog インスタンス（EU ホスト）に匿名・集計済みの利用状況データを送信することで Hermes の改善に役立てます。いつでもオフにできます。",
+    hint: "プロジェクトの PostHog インスタンス（EU ホスト）に匿名・集計済みの利用状況データを送信することで ClawLite の改善に役立てます。いつでもオフにできます。",
     disclosure: {
       uuid: "このデバイスにのみ保存されるインストールごとのランダムな識別子（氏名・メールアドレス・アカウント情報は含まれません）。",
       platform: "ご利用の OS、Electron バージョン、Node.js バージョン。",
@@ -91,7 +91,7 @@ export default {
     "<code>{{path}}</code> に OpenClaw が見つかりました。設定・API キー・セッション・スキルを Hermes に移行できます。",
   migrationDismiss: "再表示しない",
   migrating: "移行中...",
-  migrateToHermes: "Hermes に移行",
+  migrateToHermes: "ClawLite に移行",
   skip: "スキップ",
   appearanceHint: "好みのインターフェース外観を選択",
   apiKeyPlaceholder: "API キー",
@@ -99,8 +99,8 @@ export default {
   connectionSection: "接続",
   modeLocal: "ローカル",
   modeRemote: "リモート",
-  modeLocalHint: "このデバイスにインストールされた Hermes を使用",
-  modeRemoteHint: "ネットワークまたはクラウド上の Hermes API サーバに接続",
+  modeLocalHint: "このデバイスにインストールされた ClawLite を使用",
+  modeRemoteHint: "ネットワークまたはクラウド上の ClawLite API サーバに接続",
   remoteUrl: "リモート URL",
   remoteUrlHint:
     "Hermes API サーバの URL（/health と /v1/chat/completions を公開している必要あり）",

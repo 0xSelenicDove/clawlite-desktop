@@ -8,6 +8,7 @@ import {
   dialog,
   clipboard,
   session,
+  nativeImage,
 } from "electron";
 import { join, extname } from "path";
 import { randomUUID } from "crypto";
@@ -2768,7 +2769,15 @@ if (process.env.ENABLE_CDP === "1") {
 
 app.whenReady().then(() => {
   app.setName(APP_NAME);
-  electronApp.setAppUserModelId("com.nousresearch.hermes");
+  electronApp.setAppUserModelId("com.nousresearch.clawlite");
+  if (process.platform === "darwin" && app.dock) {
+    try {
+      const image = nativeImage.createFromPath(icon);
+      app.dock.setIcon(image);
+    } catch (err) {
+      console.error("Failed to set dock icon:", err);
+    }
+  }
   cleanupTempMediaFiles();
 
   // Allow microphone access for the app's own renderer (voice input). Without

@@ -1,5 +1,5 @@
-appId: com.nousresearch.hermes
-productName: Hermes One
+appId: com.nousresearch.clawlite
+productName: ClawLite
 directories:
   buildResources: build
 files:
@@ -13,7 +13,7 @@ asarUnpack:
   - resources/**
   - node_modules/better-sqlite3/build/Release/*.node
 win:
-  executableName: hermes-agent
+  executableName: clawlite
   target:
     - nsis
     - portable
@@ -52,8 +52,8 @@ linux:
   category: Utility
   synopsis: Self-improving AI assistant desktop app
   description: >-
-    Hermes One is a native desktop app for installing, configuring, and chatting
-    with Hermes Agent — a self-improving AI assistant with tool use, multi-platform
+    ClawLite is a native desktop app for installing, configuring, and chatting
+    with ClawLite Agent — a self-improving AI assistant with tool use, multi-platform
     messaging, and a closed learning loop.
 appImage:
   artifactName: ${name}-${version}.${ext}
@@ -69,5 +69,5 @@ rpm:
 npmRebuild: false
 publish:
   provider: github
-  owner: fathah
-  repo: hermes-desktop
+  owner: 0xSelenicDove
+  repo: clawlite-desktop

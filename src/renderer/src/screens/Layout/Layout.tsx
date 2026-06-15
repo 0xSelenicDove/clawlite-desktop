@@ -29,7 +29,7 @@ import Schedules from "../Schedules/Schedules";
 import Kanban from "../Kanban/Kanban";
 import RemoteNotice from "../../components/RemoteNotice";
 import VerifyWarningBanner from "../../components/VerifyWarningBanner";
-import hermeslogo from "../../assets/hermes-one.svg";
+import hermeslogo from "../../assets/clawlite_logo_white_text.png";
 import {
   ChatBubble,
   Clock,
@@ -483,7 +483,7 @@ function Layout({
           <span
             className="sidebar-logo"
             role="img"
-            aria-label="Hermes"
+            aria-label="ClawLite"
             style={{
               maskImage: `url(${hermeslogo})`,
               WebkitMaskImage: `url(${hermeslogo})`,
